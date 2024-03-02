@@ -8,10 +8,12 @@
     #logo {
         bottom: unset;
         margin-top: 35%;
+        z-index: -1;
     }
     .top {
         min-height: unset;
         height: 50vw;
+        position: relative;
     }
     .textAndPhoto2 div {
         margin-right: 2%;

@@ -28,6 +28,7 @@ main{
     justify-content: center;
     display: flex;
     align-items: center;
+    padding: 20% 0;
 }
 html, body {
     height: 100%;

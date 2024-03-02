@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tanssilaajit.css">
+    <link rel="stylesheet" href="aikataulu.css">
+    <link rel="stylesheet" href="burger.css">
+    <link rel="stylesheet" href="trigger.css">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div>
+                <div class="navbar">
+                    <div class="burger" onclick="toggleMenu()">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="menu">
+                        <a href="index.html">Koti</a>
+                        <a href="tanssilaajit.html">Tanssilaajit</a>
+                        <a id="currentPage" href="aikataulu.html">Aikataulu</a>
+                        <a href="opettajat.html">Opettajat</a>
+                        <a href="ohjeet.html">Ohjeet</a>
+                    </div>
+                </div>
+                <div class="topnav">
+                    <a href="index.html">Koti</a>
+                    <a href="tanssilaajit.html">Tanssilaajit</a>
+                    <a id="currentPage" href="aikataulu.html">Aikataulu</a>
+                    <a href="opettajat.html">Opettajat</a>
+                    <a href="ohjeet.html">Ohjeet</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <table id="table">
+            <tr>
+                <th></th>
+                <th>Maanantai</th>
+                <th>Tiistai</th>
+                <th>Keskiviikko</th>
+                <th>Torstai</th>
+                <th>Perjantai</th>
+                <th>Lauantai</th>
+                <th>Sunnuntai</th>
+            </tr>
+            <tr>
+                <td class="laaja">HIP-HOP</td>
+                <td>18.00 - 19.00</td>
+                <td>20.00 - 21.00</td>
+                <td>18.00 - 20.00</td>
+                <td>20.00 - 21.00</td>
+                <td></td>
+                <td>20.00 - 21.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="laaja">VOGUE</td>
+                <td></td>
+                <td>14.00 - 15.00</td>
+                <td></td>
+                <td>17.00 - 18.00</td>
+                <td></td>
+                <td>19.00 - 21.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="laaja">HOUSE</td>
+                <td>14.00 - 15.00</td>
+                <td></td>
+                <td></td>
+                <td>12.00 - 14.00</td>
+                <td></td>
+                <td></td>
+                <td>19.00 - 21.00</td>
+            </tr>
+            <tr>
+                <td class="laaja">DANCEHALL</td>
+                <td>14.00 - 15.00</td>
+                <td>17.00 - 19.00</td>
+                <td></td>
+                <td>16.00 - 18.00</td>
+                <td></td>
+                <td></td>
+                <td>12.00 - 13.00</td>
+            </tr>
+            <tr>
+                <td class="laaja">CONTEMPORARY</td>
+                <td>15.00 - 19.00</td>
+                <td>19.00 - 20.00</td>
+                <td></td>
+                <td></td>
+                <td>14.00 - 16.00</td>
+                <td></td>
+                <td>11.00 - 12.00</td>
+            </tr>
+        </table>
+
+    </main>
+    <footer>
+        <div id="symbol">
+            <a href="#" target="_blank"><img id="inst" src="img/instagram.png"></a>
+            <a href="#" target="_blank"><img id="face" src="img/facebook.png"></a>
+            <a href="#" target="_blank"><img id="twit" src="img/twitter.png"></a>
+            <a href="#" target="_blank"><img id="youtube" src="img/youtube.png"></a>
+        </div>
+        <div>
+            <p>e-mail: dance-family@gmail.com</br>
+                puh: +358 449236759
+            </p>
+        </div>
+        <div id="log">
+            <img id="logot" src="img/logo.png"/>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="table.js"></script>
+</body>
+</html>

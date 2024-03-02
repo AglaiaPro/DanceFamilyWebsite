@@ -1,0 +1,44 @@
+ul{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 8%;
+}
+li {
+    margin-bottom: 80px; 
+}
+.top{
+    min-height: 20%;
+}
+
+html, header, body{
+    height: 60%;
+}
+footer{
+    padding-bottom: 3%;
+    justify-content: space-between;
+}
+footer p{
+    margin-bottom: 0;
+}
+footer div{
+    display: flex;
+    align-items: end;
+}
+#symbol{
+    display: flex;
+    align-items: end;
+}
+#symbol a{
+    margin-right: 4%;
+}
+#logot{
+    width: 80%;
+    height: auto;
+    right: 2%;
+}
+#log{
+    justify-content: end;
+    display: flex;
+    width: 15%;
+}

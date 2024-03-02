@@ -1,0 +1,43 @@
+.navbar {
+    background-color:#eaddd1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 10px;
+    display: none;
+    position: relative;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(27, 87, 80);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu {
+    display: none;
+}
+
+.menu a {
+    color: rgb(27, 87, 80);
+    text-decoration: none;
+    font-size: 5vw;
+}
+
+.menu a:hover {
+    background-color: rgb(27, 87, 80);
+    color: #eaddd1;
+}
+
+.menu.active {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 100%;
+}
